@@ -1,9 +1,11 @@
 * {
     box-sizing: border-box;
 }
+
 img {
     max-width: 100%;
 }
+
 body {
     margin: 0;
     text-align: center;
@@ -12,12 +14,14 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .wrap {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .box {
     background-color: lightgrey;
     min-width: 300px;
@@ -34,11 +38,13 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .box h2 {
     font-size: 1.5em;
     margin: 0;
     font-weight: bold;
 }
+
 a {
     text-decoration: none;
     color: black;
@@ -55,14 +61,35 @@ a {
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
+
 @keyframes drive {
     0% {
         transform: translateX(0);
     }
+
     50% {
         transform: translateX(2px);
     }
+
     100% {
         transform: translateX(0);
     }
+}
+
+.wcd {
+    background-image: url(../imgs/wcd.png);
+    background-size: cover;
+    background-position: center;
+    color: black;
+    padding: 100px;
+}
+
+.wtd {
+    background-image: url(../imgs/tv.jpeg);
+    background-size: cover;
+}
+
+.idevaw {
+    background-image: url(../imgs/no-excuse.png);
+    
 }
