@@ -93,3 +93,8 @@ a {
     background-image: url(../imgs/no-excuse.png);
     
 }
+
+.wstd{
+    background-image: url(../imgs/bus.png);
+    background-size: cover;
+}
